@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: "My Travel Diary",
-    description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 0,
-  },
-  {
     title: "Work Hours Tracker",
     description:
       "A simple web app built with ReactJS and uses Firebase as a backend. The App allows users to track their working hours daily by inputing their arrival and departure times as well as how long their lunch break was. The App uses Material UI for design and implements Firebase authentication.",
@@ -17,7 +7,7 @@ export const projects = [
     tags: ["React", "Material UI", "Firebase"],
     source: "https://gitlab.com/amrosaad/emp-hours-tracker",
     visit: "https://employee-hours-tracker.web.app/",
-    id: 1,
+    id: 0,
   },
   {
     title: "Plotter",
@@ -27,7 +17,7 @@ export const projects = [
     tags: ["React", "react-charts"],
     source: "https://github.com/amrosaad93/react-plotter",
     visit: "https://react-plotter.herokuapp.com/",
-    id: 2,
+    id: 1,
   },
   {
     title: "Radio Stations Widget",
@@ -36,17 +26,16 @@ export const projects = [
     tags: ["React", "TypeScript", "NodeJS"],
     source: "https://github.com/amrosaad93/radio-stations-widget",
     visit: "https://mysterious-plateau-50860.herokuapp.com",
-    id: 3,
+    id: 2,
   },
   {
-    title: "My Notes App",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/notes-app.jpg",
-    tags: ["React", "Material UI", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 4,
+    title: "My Photography Portfolio",
+    description: "A personal photography portfolio of the best photos that I took during my travels.",
+    image: "/images/camera.jpg",
+    tags: ["Javascript", "HTML", "CSS"],
+    source: "",
+    visit: "https://amros-travel-photography.web.app/",
+    id: 3,
   },
 ];
 

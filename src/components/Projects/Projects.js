@@ -37,7 +37,7 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={project.visit}>Project</ExternalLinks>
-              <ExternalLinks href={project.source}>Github Code</ExternalLinks>
+              {project.source !== "" && <ExternalLinks href={project.source}>Github Code</ExternalLinks>}
             </UtilityList>
           </TitleContent>
         </BlogCard>
